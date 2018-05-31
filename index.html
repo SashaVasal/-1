@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="materialize/css/aos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        * {
+            margin:0
+        }
+        .collapsible-body {
+            display: none;
+            border-bottom: 1px solid #263238;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 2rem;
+}       
+        .sghs{
+            border-bottom: 1px solid #fff;
+        }
+        
+
+    </style>
+</head>
+
+<body style="margin:0" class="card blue-grey darken-4">
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper black">
+                <a href="#!" class="brand-logo" onclick="return up()"></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="sass.html">+79681532295</a></li>
+                    <li><a href="badges.html">aleksandr_sasha_vasilev@inbox.ru</a></li>
+                    
+                  </ul>
+            </div>
+        </nav>
+   
+    </div>
+<ul class="sidenav" id="mobile-demo">
+    <ul class="collapsible" >
+    <li>
+      <div class="collapsible-header sghs" >Контакты</div>
+      <div class="collapsible-body"><span  style="margin-left:5%">+79681532295</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header " >Почта</div>
+      <div class="collapsible-body"><span  style="margin-left:5%">aleksandr_sasha_vasilev@inbox.ru</span></div>
+    </li>
+  </ul> 
+</ul>
+
+<div class="card black" style="margin-top:0%;" >
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="i1.jpg" width="300">
+                <!-- random image -->
+                <div class="caption center-align ">
+                    <h3 class="right-align">Александр Васильев</h3>
+                    <h4 class="light white-text text-lighten-3 right-align" style="margin-top:0%">Начинающий программист</h4>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+</div>
+<div class="row " style="margin:0">
+        <div class="col s12 m12">
+            <div class="card black">
+                <div class="card-content white-text center-align">
+                    <h5>Меня зовут Васильев Александр, я учусь в ГБНОУ РЛ-И РС(Я) в 10 политехническом классе. Программированием я начал интересоваться 2 года назад, и начал учиться в IT школе.</h5>
+                </div>
+
+            </div>
+        </div>
+        
+</div>
+    <row>
+ <ul class="collapsible col s9" style="border-color: #263238;">
+    <li  data-aos="fade-left">
+      <div class="collapsible-header white-text text-darken-2" style="background:black; margin-top:1%; border-color: black;"><h5>Умения</h5></div>
+      <div class="collapsible-body"><span class="white-text text-darken-2" style="border-color: black;">>Знаю основы языка: JS, C#, Pascal, php</span></div>
+    </li>
+    <li  data-aos="fade-left">
+      <div class="collapsible-header white-text text-darken-2" style="background:black; margin-top:1%;  border-color: black;"><h5>Хобби</h5></div>
+      <div class="collapsible-body"><span class="white-text text-darken-2" style="border-color: black;">>Видеоигры, программирование</span></div>
+    </li>
+    <li  data-aos="fade-left">
+      <div class="collapsible-header white-text text-darken-2" style="background:black; margin-top:1%; border-color: black;"><h5>Достижения</h5></div>
+      <div class="collapsible-body"><span class="white-text text-darken-2" style="border-color: black;">>Закончил музыкальную школу, имею 3 разряд на шашках </span></div>
+    </li>
+  </ul>   
+        </row>
+    <div style="margin-top:5%">
+        <h4 class="center-align white-text">Мои проекты</h4>
+    </div>
+    <div class="slider"  style="margin-top:5%"  data-aos="fade-left">
+    <ul class="slides">
+      <li>
+        <img src="2.png"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Здесь должна быть игра на Юнити</h3>
+          <h5 class="light grey-text text-lighten-3">https://youtu.be/KLVJBaBbTDk</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+   <footer class="page-footer card black">
+          <div class="container">
+            <div class="row">
+              
+             
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer> 
+    
+
+    
+    
+    <ul id="slide-out" class="sidenav">
+        
+       
+       
+    </ul>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script>
+        $(document).ready(function() {
+             $('.carousel').carousel();
+            $('.slider').slider();
+            $('.parallax').parallax();
+            $('.collapsible').collapsible();
+            $('.sidenav').sidenav();
+            $('.scrollspy').scrollSpy();
+            
+});
+        var t;
+        function up() {
+            var top = Math.max(document.body.scrollTop,document.documentElement.scrollTop);
+            if(top > 0) {
+                window.scrollBy(0,-100);
+                t = setTimeout('up()',20);
+            } else clearTimeout(t);
+            return false;
+}
+    </script>
+</body>
+
+</html>
